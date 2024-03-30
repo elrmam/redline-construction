@@ -1,7 +1,6 @@
 function About(){
 
     return(
-        <>
             <div className="container my-5">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12 text-start">
@@ -18,7 +17,6 @@ function About(){
                     </div>
                 </div>
             </div>
-        </>
     )
 
 }

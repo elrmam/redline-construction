@@ -1,8 +1,12 @@
 function Services(){
 
     return(
-        <>
             <div className="container my-5" id='services'>
+                <div className="row text-center">
+                    <div className="col-12">
+                        <h5 className="text-danger">Our Services</h5>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col-lg-2 col-md-5 col-sm-12 my-5">
                         <div className="card position-relative" style={{ width: '17rem' }}>
@@ -89,7 +93,6 @@ function Services(){
                     </div>
                 </div>
             </div>
-        </>
     )
 
 }

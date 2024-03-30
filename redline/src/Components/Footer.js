@@ -7,47 +7,49 @@ function Footer() {
   return (
     <div className='container-fluid bg-black text-start pt-4'>
       <div className='row mx-2'>
-        <div className='col-lg-3 col-md-6 col-sm-12'>
-        <img src="/logo.png" alt="location" height={'100rem'} width={'100rem'}/>
-        <table className='mt-3'>
-          <tr>
-            <td>
-              <h6 className='text-danger'>Commercial Register Number : </h6>
-            </td>
-            <td>
-              <h6 className='text-white'>18823</h6>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h6 className='text-danger'>Tax Card : </h6>
-            </td>
-            <td>
-              <h6 className='text-white'>648-293-009</h6>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h6 className='text-danger'>Egyptian Federation Membership Number For Construction and Building Contractors : </h6>
-            </td>
-            <td>
-              <h6 className='text-white'>80462</h6>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h6 className='text-danger'>Company Type : </h6>
-            </td>
-            <td>
-              <h6 className='text-white'>Simple Recommendation</h6>
-            </td>
-          </tr>
-        </table>
+        <div className='col-lg-4 col-md-6 col-sm-12'>
+          <img src="/logo.png" alt="location" height={'100rem'} width={'100rem'}/>
+          <table className='mt-3'>
+            <tr>
+              <td>
+                <h6 className='text-danger'>Commercial Register Number : </h6>
+              </td>
+              <td>
+                <h6 className='text-white'>18823</h6>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6 className='text-danger'>Tax Card : </h6>
+              </td>
+              <td>
+                <h6 className='text-white'>648-293-009</h6>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6 className='text-danger'>Egyptian Federation Membership Number For Construction and Building Contractors : </h6>
+              </td>
+              <td>
+                <h6 className='text-white'>80462</h6>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h6 className='text-danger'>Company Type : </h6>
+              </td>
+              <td>
+                <h6 className='text-white'>Simple Recommendation</h6>
+              </td>
+            </tr>
+          </table>
         </div>
-        <div className='col-lg-3 col-md-6 col-sm-12'>
+        <div className='col-lg-2 col-md-6 col-sm-12'>
           <h5 className='text-white'>Links</h5>
-          <h6><Link className="text-secondary footlink" to="/#about">About us</Link></h6>
           <h6><Link className="text-secondary footlink" to="/#services">Services</Link></h6>
+          <h6><Link className="text-secondary footlink" to="/#about">About us</Link></h6>
+          <h6><Link className="text-secondary footlink" to="/#Goals"> Goals</Link></h6>
+          <h6><Link className="text-secondary footlink" to="/#services">Projects</Link></h6>
         </div>
         <div className='col-lg-3 col-md-6 col-sm-12'>
           <h5 className='text-white'>Get in Touch</h5>

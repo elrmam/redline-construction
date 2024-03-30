@@ -1,5 +1,7 @@
 import About from "../Components/About";
+import Goals from "../Components/Goals";
 import Herosectin from "../Components/Herosection";
+import Projects from "../Components/Projects";
 import Services from "../Components/sevices";
 
 
@@ -8,8 +10,10 @@ function Homepage(){
     return(
         <>
             <Herosectin/>
-            <Services id='services'/>
+            <Services/>
             <About/>
+            <Goals/>
+            <Projects/>
         </>
     )
 }
