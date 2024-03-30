@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
-import HomePage from './Pages/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Homepage from './Pages/Home';
 
 
 
@@ -13,11 +13,11 @@ import HomePage from './Pages/Home';
 function App() {
   return (
     <div className="App" >
-        <BrowserRouter >
+        <BrowserRouter>
           <Navbar/>
-          <Switch>
-            <Route exact path={`/`} component={HomePage}/>
-          </Switch>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+          </Routes>
           <Footer/>
         </BrowserRouter>  
     </div>
