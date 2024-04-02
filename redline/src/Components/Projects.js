@@ -12,6 +12,7 @@ function Projects(){
                         <h5><span className="text-danger">&gt;&nbsp;</span>Several Buildings Under Construction In Suez</h5>
                         <h5><span className="text-danger">&gt;&nbsp;</span>Educational Buildings In Maadi</h5>
                         <h5><span className="text-danger">&gt;&nbsp;</span>Finishing Works In Several Different Areas</h5>
+                        <br/><button type="button" className="bg-black text-white w-25 py-2">LEARN MORE</button>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <img src="/about.jpg" className="card-img-top" alt="discribsion"  />

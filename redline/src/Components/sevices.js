@@ -4,7 +4,8 @@ function Services(){
             <div className="container my-5" id='services'>
                 <div className="row text-center">
                     <div className="col-12">
-                        <h5 className="text-danger">Our Services</h5>
+                        <h5 className="text-danger">OUR SERVICES</h5>
+                        <h1>SERVICES WE PROVIDE</h1>
                     </div>
                 </div>
                 <div className="row">
@@ -90,6 +91,11 @@ function Services(){
                             </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <button type="button" className="bg-black text-white w-25 py-2">LEARN MORE</button>
                     </div>
                 </div>
             </div>

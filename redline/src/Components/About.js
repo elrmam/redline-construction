@@ -11,6 +11,7 @@ function About(){
                             It Has Many Works That Has Been Implemented In
                             Several Places In Egypt .
                         </p>
+                        <br/><button type="button" className="bg-black text-white w-25 py-2">LEARN MORE</button>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <img src="/about.jpg" className="card-img-top" alt="discribsion"  />
