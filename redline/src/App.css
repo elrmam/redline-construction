@@ -93,12 +93,12 @@ p {
  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.textred {
+.herored {
   color: #800020;
   -webkit-text-stroke: 2px black;
 }
 
-.textblack  {
+.heroblack  {
   color: black;
 }
 
@@ -111,4 +111,8 @@ p {
 .word span {
   color: #e6eaed;
   -webkit-text-stroke: 2px #800020;
+}
+
+.textred{
+  color: #800020;
 }

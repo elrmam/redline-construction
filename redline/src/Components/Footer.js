@@ -69,7 +69,7 @@ function Footer() {
         </div>
       </div>
       <div className='row'>
-        <hr/>
+        <hr className='text-white'/>
       </div>
       <div className='row'>
         <h6 className='text-center text-secondary'>&copy;2024 Redline Construction Company.All rights reserved.</h6>

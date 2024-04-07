@@ -5,9 +5,9 @@ function Herosectin(){
                 <div className="row">
                     <div className="col-12 ms-5 mt-5">
                         <div className="text-start redlineheader">
-                            <span className="textred">REDLINE</span> 
+                            <span className="herored">REDLINE</span> 
                             <span>&nbsp;</span> 
-                            <span className="textblack">COMPANY</span>
+                            <span className="heroblack">COMPANY</span>
                         </div>
                         <div className="word mt-5 text-start">
                             <span>C</span>
