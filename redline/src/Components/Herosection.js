@@ -4,8 +4,12 @@ function Herosectin(){
             <div className="container-fluid background" style={{ height: "33rem" }}>
                 <div className="row">
                     <div className="col-12 ms-5 mt-5">
-                        <p className="redlineheader">REDLINE COMPANY</p>
-                        <div className="word text-start">
+                        <div className="text-start redlineheader">
+                            <span className="textred">REDLINE</span> 
+                            <span>&nbsp;</span> 
+                            <span className="textblack">COMPANY</span>
+                        </div>
+                        <div className="word mt-5 text-start">
                             <span>C</span>
                             <span>O</span>
                             <span>N</span>
@@ -18,6 +22,7 @@ function Herosectin(){
                             <span>O</span>
                             <span>N</span>
                             <span>S</span>
+                            <span>&nbsp;</span> 
                             <span>&</span>
                             <span>&nbsp;</span> 
                             <span>F</span>
@@ -29,9 +34,6 @@ function Herosectin(){
                             <span>I</span>
                             <span>N</span>
                             <span>G</span>
-                        </div>
-                        <div className="redheader text-start">
-                            <span>We design with creativity to fulfill your dreams</span>
                         </div>
                     </div>
                 </div>
