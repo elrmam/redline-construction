@@ -9,40 +9,11 @@ function Footer() {
       <div className='row mx-2'>
         <div className='col-lg-4 col-md-6 col-sm-12'>
           <img src="/logo.png" alt="location" height={'100rem'} width={'100rem'}/>
-          <table className='mt-3'>
-            <tr>
-              <td>
-                <h6 className='text-danger'>Commercial Register Number : </h6>
-              </td>
-              <td>
-                <h6 className='text-white'>18823</h6>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h6 className='text-danger'>Tax Card : </h6>
-              </td>
-              <td>
-                <h6 className='text-white'>648-293-009</h6>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h6 className='text-danger'>Egyptian Federation Membership Number For Construction and Building Contractors : </h6>
-              </td>
-              <td>
-                <h6 className='text-white'>80462</h6>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h6 className='text-danger'>Company Type : </h6>
-              </td>
-              <td>
-                <h6 className='text-white'>Simple Recommendation</h6>
-              </td>
-            </tr>
-          </table>
+          <p className='text-secondary'> REDLINE CONSTRUCTION Is A Leading Company In
+              Engineering , Constructions And Finishing Works .
+              It Has Many Works That Has Been Implemented In
+              Several Places In Egypt .
+          </p>
         </div>
         <div className='col-lg-2 col-md-6 col-sm-12'>
           <h5 className='text-white'>Links</h5>
@@ -94,7 +65,7 @@ function Footer() {
         <div className='col-lg-3 col-md-6 col-sm-12'>
           <h5 className='text-white'>Location</h5>
           <iframe title="Company Location Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.2242275720527!2d31.274030!3d29.982590!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zYOUR_COMPANY_ADDRESS_HERE!5e0!3m2!1sen!2sus!4v1641534423335!5m2!1sen!2sus" 
-              width="200" height="120" style={{ border:'0' }} allowfullscreen loading="lazy"></iframe>
+              width="300" height="200" style={{ border:'0' }} allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
       <div className='row'>
