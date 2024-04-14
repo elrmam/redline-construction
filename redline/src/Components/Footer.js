@@ -14,6 +14,9 @@ function Footer() {
               It Has Many Works That Has Been Implemented In
               Several Places In Egypt .
           </p>
+          <a href="https://www.facebook.com/redlineconstruction.elhadidy?mibextid=ZbWKwL" target="_blank" rel="noreferrer noopener">
+            <img src="/facebook.png" alt="Facebook" height={40} width={40}/>
+          </a>
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4'>
           <h5 className='text-white mb-5'>Links</h5>
