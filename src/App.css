@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -40,16 +41,15 @@
 
 .background {
   background-image: url('../../redline/public/background.jpg');
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
 .navbar {
-height: 4rem;
-background-color: #e6eaed
-;
+  height: 4rem;
+  background-color: #e6eaed;
 }
 
 .card {
@@ -57,7 +57,7 @@ background-color: #e6eaed
 }
 
 .card:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -65,7 +65,7 @@ background-color: #e6eaed
   list-style-type: none;
 }
 
-.footlink{
+.footlink {
   text-decoration: none;
 }
 
@@ -73,24 +73,24 @@ p {
   text-align: left;
 }
 
-.liscense{
-  background-color:#e6eaed ;
+.liscense {
+  background-color: #e6eaed;
   transition: transform 0.3s ease;
 
 }
 
 .liscense:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
-.lis{
-  color:#800020 ;
-}  
+.lis {
+  color: #800020;
+}
 
-.redlineheader{
- font-size: 5rem;
- font-weight: bolder;
- text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+.redlineheader {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .herored {
@@ -98,7 +98,7 @@ p {
   -webkit-text-stroke: 2px black;
 }
 
-.heroblack  {
+.heroblack {
   color: black;
 }
 
@@ -117,7 +117,7 @@ p {
   .redlineheader {
     font-size: 3.5rem;
   }
-  
+
   .word {
     font-size: 2rem;
   }
@@ -127,12 +127,13 @@ p {
   .redlineheader {
     font-size: 2rem;
   }
-  
+
   .word {
     font-size: 1.5rem;
   }
 }
-.textred{
+
+.textred {
   color: #800020;
 }
 
