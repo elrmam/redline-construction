@@ -6,16 +6,16 @@ import Projects from "../Components/Projects";
 import Services from "../Components/Services";
 
 
-function Homepage(){
+function Homepage() {
 
-    return(
+    return (
         <>
-            <Herosectin/>
-            <Services/>
-            <About/>
-            <Goals/>
-            <Projects/>
-            <License/>
+            <Herosectin />
+            <Services />
+            <About />
+            <Goals />
+            <Projects />
+            <License />
         </>
     )
 }
