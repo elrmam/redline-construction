@@ -35,7 +35,7 @@ function License(){
                         </div>
                     </div>
                     <div className="row d-flex justify-content-center">
-                        <button type="button" className="bg-black text-white w-25 py-2 button-animation">LEARN MORE</button>
+                        <button type="button" className="bg-black text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
                     </div>
                 </div>
             </div>

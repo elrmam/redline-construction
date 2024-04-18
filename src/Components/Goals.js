@@ -10,10 +10,10 @@ function Goals(){
                     <h5><span className="text-danger">&gt;&nbsp;</span>Maintain Client Satisfaction</h5>
                     <h5><span className="text-danger">&gt;&nbsp;</span>Preserving And Developing The Engineering Profession</h5>
                     <h5><span className="text-danger">&gt;&nbsp;</span>Achieving Gudits At The Lowest Coast And Safety</h5>
-                    <br/><button type="button" className="bg-black text-white w-25 py-2">LEARN MORE</button>
+                    <br/><button type="button" className="bg-black text-white w-25 py-2 mb-5 rounded-3 button-red">LEARN MORE</button>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
-                    <img src="/goals.webp" className="card-img-top" alt="discribsion"  />
+                    <img src="/goals.webp" className="imghome card-img-top" alt="discribsion"  />
                 </div>
             </div>
         </div>

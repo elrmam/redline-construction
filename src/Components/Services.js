@@ -9,7 +9,7 @@ function Services(){
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-lg-2 col-md-5 col-sm-12 my-5">
+                    <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/plan.jpeg" className="card-img-top" alt="engineering plans" height={'235rem'} />
                             <div className="position-absolute top-50 start-50 translate-middle" >
@@ -21,7 +21,7 @@ function Services(){
                             />
                             </div>
                             <div className="card-body" style={{ height: '15rem' }} >
-                            <h5 className="card-title"><br/><br/>Architrctural And Structural Designs</h5>
+                            <h5 className="card-title text-center"><br/><br/>Architrctural And Structural Designs</h5>
                             <p className="card-text">
                                 Creative architectural design and integrated executive plans in accordance with engineering regulations and
                                 building code.
@@ -30,7 +30,7 @@ function Services(){
                         </div>
                     </div>
                     <div className="col-1"></div>
-                    <div className="col-lg-2 col-md-5 col-sm-12 my-5 ">
+                    <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/permit.jpg" className="card-img-top border border-bottom" alt="Building permits" height={'235rem'} />
                             <div className="position-absolute top-50 start-50 translate-middle" >
@@ -42,7 +42,7 @@ function Services(){
                             />
                             </div>
                             <div className="card-body" style={{ height: '15rem' }} >
-                            <h5 className="card-title"><br/><br/>Building permits</h5>
+                            <h5 className="card-title text-center"><br/><br/>Building permits</h5>
                             <p className="card-text">
                                 Issuance of building permit + renovation permit + fencing permit + property transfer + renewal
                             </p>
@@ -50,7 +50,7 @@ function Services(){
                         </div>
                     </div>
                     <div className="col-1"></div>
-                    <div className="col-lg-2 col-md-5 col-sm-12 my-5">
+                    <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/supervision.jpg" className="card-img-top" alt="Engineering supervision" height={'235rem'} />
                             <div className="position-absolute top-50 start-50 translate-middle" >
@@ -62,7 +62,7 @@ function Services(){
                             />
                             </div>
                             <div className="card-body" style={{ height: '15rem' }} >
-                            <h5 className="card-title"><br/><br/>Engineering supervision</h5>
+                            <h5 className="card-title text-center"><br/><br/>Engineering supervision</h5>
                             <p className="card-text">
                             Comprehensive supervision over all stages of construction
                             By an outstanding elite of supervising engineers
@@ -72,7 +72,7 @@ function Services(){
                         </div>
                     </div>
                     <div className="col-1"></div>
-                    <div className="col-lg-2 col-md-5 col-sm-12 my-5">
+                    <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/interior.jpg" className="card-img-top" alt="Interior Design" height={'235rem'} />
                             <div className="position-absolute top-50 start-50 translate-middle" >
@@ -84,7 +84,7 @@ function Services(){
                             />
                             </div>
                             <div className="card-body" style={{ height: '15rem' }} >
-                            <h5 className="card-title"><br/><br/>Interior Design</h5>
+                            <h5 className="card-title text-center"><br/><br/>Interior Design</h5>
                             <p className="card-text">
                             Distinctive interior decor design tailored to your requirements to provide complete comfort for your family members.
                             3D designs to illustrate ideas.
@@ -93,10 +93,8 @@ function Services(){
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-12">
-                        <button type="button" className="bg-black text-white w-25 py-2">LEARN MORE</button>
-                    </div>
+                <div className="row d-flex justify-content-center">
+                    <button type="button" className=" text-white w-25 py-2 my-3 rounded-3 hover-red button-red">LEARN MORE</button>
                 </div>
             </div>
     )
