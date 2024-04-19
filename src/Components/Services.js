@@ -12,10 +12,11 @@ function Services(){
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/plan.jpeg" className="card-img-top" alt="engineering plans" height={'235rem'} />
-                            <div className="position-absolute top-50 start-50 translate-middle" >
+                            <div >
                             <img
                                 src="/logo.jpeg"
-                                className=" border border-black"
+                                width="90rem"
+                                className="logo border border-black"
                                 style={{ maxWidth: '60%', borderRadius: '60%' }}
                                 alt="logo"
                             />
@@ -33,10 +34,11 @@ function Services(){
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/permit.jpg" className="card-img-top border border-bottom" alt="Building permits" height={'235rem'} />
-                            <div className="position-absolute top-50 start-50 translate-middle" >
+                            <div>
                             <img
                                 src="/logo.jpeg"
-                                className=" border border-black"
+                                width="90rem"
+                                className="logo border border-black"
                                 style={{ maxWidth: '60%', borderRadius: '60%' }}
                                 alt="logo"
                             />
@@ -53,10 +55,11 @@ function Services(){
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/supervision.jpg" className="card-img-top" alt="Engineering supervision" height={'235rem'} />
-                            <div className="position-absolute top-50 start-50 translate-middle" >
+                            <div>
                             <img
                                 src="/logo.jpeg"
-                                className=" border border-black"
+                                width="90rem"
+                                className="logo border border-black"
                                 style={{ maxWidth: '60%', borderRadius: '60%' }}
                                 alt="logo"
                             />
@@ -75,10 +78,11 @@ function Services(){
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
                             <img src="/interior.jpg" className="card-img-top" alt="Interior Design" height={'235rem'} />
-                            <div className="position-absolute top-50 start-50 translate-middle" >
+                            <div>
                             <img
                                 src="/logo.jpeg"
-                                className=" border border-blackS"
+                                width="90rem"
+                                className="logo border border-blackS"
                                 style={{ maxWidth: '60%', borderRadius: '60%' }}
                                 alt="logo"
                             />
@@ -94,7 +98,7 @@ function Services(){
                     </div>
                 </div>
                 <div className="row d-flex justify-content-center">
-                    <button type="button" className=" text-white w-25 py-2 my-3 rounded-3 hover-red button-red">LEARN MORE</button>
+                    <button type="button" className=" text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
                 </div>
             </div>
     )

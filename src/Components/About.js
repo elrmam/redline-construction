@@ -11,11 +11,13 @@ function About(){
                             It Has Many Works That Has Been Implemented In
                             Several Places In Egypt .
                         </h5>
-                        <br/><button type="button" className="bg-black text-white w-25 py-2 mb-5 rounded-3 button-red">LEARN MORE</button>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <img src="/aboutus.jpg" className="imghome rounded" alt="discribsion"  />
                     </div>
+                </div>
+                <div className="row">
+                    <button type="button" className="bg-black text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
                 </div>
             </div>
     )

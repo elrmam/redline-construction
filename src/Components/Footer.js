@@ -23,7 +23,7 @@ function Footer() {
           <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Services">Services</Link></h6>
           <h6 className='mb-3'><Link className="text-secondary footlink" to="/#About">About us</Link></h6>
           <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Goals"> Goals</Link></h6>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Projects">Projects</Link></h6>
+          <h6 className='mb-3'><Link className="text-secondary footlink" to="/gallery">Projects</Link></h6>
           <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Licenses">Licenses</Link></h6>
         </div>
         <div className='col-lg-3 col-md-5 col-sm-12 me-4 mb-4'>

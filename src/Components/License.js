@@ -4,7 +4,7 @@ function License(){
 
     return(
             <div className="container my-5">
-                <div className="row">
+                <div className="row text-center">
                     <div className="col-12">
                         <h5 className="text-danger">Our Licenses</h5>
                         <h1>Licenses Information</h1>
@@ -33,10 +33,10 @@ function License(){
                             <hr/>
                             <h6 className="fs-5 text-center lis">80462</h6>
                         </div>
-                    </div>
-                    <div className="row d-flex justify-content-center">
+                    </div>  
+                </div>
+                <div className="row d-flex justify-content-center">
                         <button type="button" className="bg-black text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
-                    </div>
                 </div>
             </div>
     )
