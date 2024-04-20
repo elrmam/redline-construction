@@ -1,56 +1,24 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
 .background {
   background-image: url('../public/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 
 .navbar {
-  height: 4rem;
-  background-color: #e6eaed;
+background-color: #e6eaed ;
+
 }
+
+.nav-link {
+	margin-right: 1rem;
+  }
+
+.nav-link:hover {
+  font-weight: bold;
+  transform: scale(1.05); 
+  }
 
 .card {
   transition: transform 0.3s ease;
@@ -139,4 +107,61 @@ p {
 
 .footpar {
   line-height: 2;
+}
+
+.gallery{
+  width: 100%;
+  height: 25rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+  background-color: black;
+}
+
+.gallery:hover{
+  transform: scale(1.05); 
+  box-shadow: 0 0 25px red;
+}
+
+
+
+@media (max-width: 767px) {
+  .card-container {
+    margin-bottom: 1rem; 
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .card {
+    width: 17rem;
+  }
+}
+
+.button-red {
+  background-color: black;
+  width: 150px;
+}
+
+.button-red:hover {
+  background-image: linear-gradient(to right, black, #800020);
+  transform: scale(1.02); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imghome{
+  width: 100%;
+  border-radius: 1px;
+  box-shadow: 0 0 10px black;
+  background-color: black;
+}
+
+.card-container .logo {
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
 }
