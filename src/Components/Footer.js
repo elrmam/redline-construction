@@ -36,7 +36,7 @@ function Footer() {
               <h6 className="text-secondary footpar ms-2">6/2 Al Shatr Al Sabaa - Al Orouba Street From Algeria Street - New Maadi</h6>
             </div>
           </div>
-          <div className='row mb-2'>
+          <div className='row mb-2' #>
             <div className='col-1'>
               <img src="/email.png" alt="email" height={'22rem'} width={'22rem'} />
             </div>
