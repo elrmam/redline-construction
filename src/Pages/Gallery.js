@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 
-function Gallery(){
+function Gallery() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
-    return(
+    return (
         <div className="container-fluid bg-dark">
             <div className="row mb-5">
                 <div className="col-lg-4 col-md-6 col-sm-12 mt-5">

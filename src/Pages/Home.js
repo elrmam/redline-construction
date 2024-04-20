@@ -13,8 +13,11 @@ function Homepage() {
             <Herosectin />
             <Services />
             <About />
+            <hr className="border border-danger border-1 opacity-25"/>
             <Goals />
+            <hr className="border border-danger border-1 opacity-25"/>
             <Projects />
+            <hr className="border border-danger border-1 opacity-25"/>
             <License />
         </>
     )
