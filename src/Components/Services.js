@@ -1,7 +1,7 @@
 function Services(){
 
     return(
-            <div className="container my-5" id='services'>
+            <div className="container my-5" id='Services'>
                 <div className="row text-center">
                     <div className="col-12">
                         <h5 className="text-danger">OUR SERVICES</h5>
@@ -11,7 +11,7 @@ function Services(){
                 <div className="row">
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
-                            <img src="/plan.jpeg" className="card-img-top" alt="engineering plans" height={'235rem'} />
+                            <img src="/plan.jpg" className="card-img-top" alt="engineering plans" height={'235rem'} />
                             <div >
                             <img
                                 src="/logo.jpeg"
@@ -77,7 +77,7 @@ function Services(){
                     <div className="col-1"></div>
                     <div className="col-lg-2 col-md-5 col-sm-12 mb-3 card-container">
                         <div className="card position-relative" style={{ width: '17rem' }}>
-                            <img src="/interior.jpg" className="card-img-top" alt="Interior Design" height={'235rem'} />
+                            <img src="/interior.avif" className="card-img-top" alt="Interior Design" height={'235rem'} />
                             <div>
                             <img
                                 src="/logo.jpeg"
@@ -96,9 +96,6 @@ function Services(){
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row d-flex justify-content-center">
-                    <button type="button" className=" text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
                 </div>
             </div>
     )

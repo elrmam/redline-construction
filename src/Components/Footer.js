@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 
 
@@ -15,16 +14,15 @@ function Footer() {
               Several Places In Egypt .
           </p>
           <a href="https://www.facebook.com/redlineconstruction.elhadidy?mibextid=ZbWKwL" target="_blank" rel="noreferrer noopener">
-            <img src="/facebook.png" alt="Facebook" height={40} width={40}/>
+            <div className="fb-icon">f</div>
           </a>
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4 mb-4'>
           <h5 className='text-white mb-5'>Links</h5>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Services">Services</Link></h6>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/#About">About us</Link></h6>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Goals"> Goals</Link></h6>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/gallery">Projects</Link></h6>
-          <h6 className='mb-3'><Link className="text-secondary footlink" to="/#Licenses">Licenses</Link></h6>
+          <h6 className='mb-3'><a className="text-secondary footlink" href="/#Services">Services</a></h6>
+          <h6 className='mb-3'><a className="text-secondary footlink" href="/#About">About us</a></h6>
+          <h6 className='mb-3'><a className="text-secondary footlink" href="/#Goals"> Goals</a></h6>
+          <h6 className='mb-3'><a className="text-secondary footlink" href="/#Projects">Projects</a></h6>
         </div>
         <div className='col-lg-3 col-md-5 col-sm-12 me-4 mb-4'>
           <h5 className='text-white mb-5'>Get in Touch</h5>

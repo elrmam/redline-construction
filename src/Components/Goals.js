@@ -1,7 +1,7 @@
 function Goals(){
 
     return(
-        <div className="container my-5 curved-container">
+        <div className="container my-5 curved-container" id="Goals">
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 text-start">
                     <h5 className="text-danger">Our Goals</h5>
@@ -14,9 +14,6 @@ function Goals(){
                 <div className="col-lg-6 col-md-6 col-sm-12">
                     <img src="/goals.webp" className="imghome card-img-top" alt="discribsion"  />
                 </div>
-            </div>
-            <div className="row">
-                <button type="button" className="bg-black text-white w-25 py-2 my-3 rounded-3 button-red">LEARN MORE</button>
             </div>
         </div>
     )
