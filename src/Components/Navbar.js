@@ -12,10 +12,13 @@ const CustomNavbar= ()=> {
     <Navbar className='navbar bg-black' expand="lg">
       <Container>
         <Navbar.Brand className='text-start me-5' as={Link} to="/">
-          <h2 className="fs-1">
-            <span className='textred'>RED</span>
-            <span className='text-white'>LINE</span>
-          </h2>
+        <img
+                                src="/logo.png"
+                                width="90rem"
+                                className="logo border border-black"
+                                style={{ maxWidth: '80%', borderRadius: '80%' }}
+                                alt="logo"
+                            />
         </Navbar.Brand>
         <Navbar.Toggle className='border bg-white border-danger' aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

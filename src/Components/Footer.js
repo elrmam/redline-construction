@@ -14,7 +14,7 @@ function Footer() {
               Several Places In Egypt .
           </p>
           <a href="https://www.facebook.com/redlineconstruction.elhadidy?mibextid=ZbWKwL" target="_blank" rel="noreferrer noopener">
-            <div className="fb-icon">f</div>
+            <img src='/facebook.png' alt='facebook' width={'50rem'} height={'50rem'} />
           </a>
         </div>
         <div className='col-lg-1 col-md-6 col-sm-12 me-4 mb-4'>
@@ -31,7 +31,7 @@ function Footer() {
                 <img src="/location.png" alt="location" height={'22rem'} width={'17rem'}/>
             </div>
             <div className='col-11'>
-              <h6 className="text-secondary footpar ms-2">6/2 Al Shatr Al Sabaa - Al Orouba Street From Algeria Street - New Maadi</h6>
+              <h6 className="text-secondary footpar ms-2">2/6 Al Shatr Al Sabaa - Al Orouba Street From Algeria Street - New Maadi</h6>
             </div>
           </div>
           <div className='row mb-2'>
