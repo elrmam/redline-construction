@@ -21,7 +21,28 @@
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"; /* 20 non-breaking spaces */
 }
 
-.heromarigin {
+
+
+@media (max-width: 470px) {
+  .herospaces::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  }
+  
+}
+
+@media (max-width: 370px) {
+  .herotxtstart {
+    text-align: start !important;
+    
+  }
+
+  .herospaces::before {
+    content: "\00a0\00a0\00a0\00a0\00a0" !important;
+  }
+}
+
+
+.heromargin {
   margin-top: 145px;
 }
 
